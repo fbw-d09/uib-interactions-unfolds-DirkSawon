@@ -75,6 +75,26 @@ body
     background-color:yellow;
 }
 
+/* .container:hover .box-1
+{
+    transform:rotate(-90deg) translateY(-100px);
+}
+
+.container:hover .box-2
+{
+    transform:rotate(90deg) translateY(-100px);
+}
+
+.container:hover .box-3
+{
+    transform:rotate(90deg) translateY(100px);
+}
+
+.container:hover .box-4
+{
+    transform:rotate(-90deg) translateY(100px);
+} */
+
 .container:hover .box-1
 {
     transform:rotate(90deg) translateY(100px);
