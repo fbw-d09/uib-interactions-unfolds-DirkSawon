@@ -1,0 +1,116 @@
+*
+{
+    margin:0 auto;
+    padding:0;
+}
+
+body
+{
+    box-sizing: border-box;
+}
+
+.message
+{
+    display:block;
+}
+
+.container
+{
+    display:block;
+    position:absolute;
+    top:100px;
+    left:100px;
+    border:1px solid red;
+    width:200px;
+    height:200px;
+    font-size:36px;
+    text-align: center;
+}
+
+.container h1
+{
+    border:1px solid blue;
+    display:block;
+    position:relative;
+    font-size:32px;
+    top:84px;
+    text-align: center;
+}
+
+.box
+{
+    display:block;
+    position:absolute;
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    transition:0.5s;
+}
+
+.box-1
+{
+    top:0;
+    left:0;
+    background-color:steelblue;
+}
+
+.box-2
+{
+    top:0;
+    left:100px;
+    background-color:dimgray;
+}
+
+.box-3
+{
+    top:100px;
+    left:0;
+    background-color:rosybrown;
+}
+
+.box-4
+{
+    top:100px;
+    left:100px;
+    background-color:yellow;
+}
+
+/* .container:hover .box-1
+{
+    transform:rotate(-90deg) translateY(-100px);
+}
+
+.container:hover .box-2
+{
+    transform:rotate(90deg) translateY(-100px);
+}
+
+.container:hover .box-3
+{
+    transform:rotate(90deg) translateY(100px);
+}
+
+.container:hover .box-4
+{
+    transform:rotate(-90deg) translateY(100px);
+} */
+
+.container:hover .box-1
+{
+    transform:rotate(90deg) translateY(100px);
+}
+
+.container:hover .box-2
+{
+    transform:rotate(-90deg) translateY(100px);
+}
+
+.container:hover .box-3
+{
+    transform:rotate(-90deg) translateY(-100px);
+}
+
+.container:hover .box-4
+{
+    transform:rotate(90deg) translateY(-100px);
+}
